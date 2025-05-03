@@ -1,0 +1,22 @@
+{
+  "name": "casoguayaquil",
+  "version": "1.0.0",
+  "description": "Suite de pruebas automatizadas ParaBank con Playwright + Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headless": "HEADLESS=true cucumber-js",
+    "report": "node scripts/generate-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.52.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^7.2.0",
+    "open-cli": "^8.0.0"
+  }
+}

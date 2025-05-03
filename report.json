@@ -1,0 +1,92 @@
+[
+  {
+    "description": "  Como cliente nuevo de ParaBank\n  Quiero registrarme en el sistema\n  Para acceder a mis servicios bancarios",
+    "elements": [
+      {
+        "description": "",
+        "id": "registro-de-nuevo-usuario;registro-exitoso",
+        "keyword": "Escenario",
+        "line": 8,
+        "name": "Registro exitoso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 981473400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que estoy en la página de registro",
+            "match": {
+              "location": "steps\\registro_usuario_steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2499322500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 10,
+            "name": "completo el formulario con datos válidos",
+            "match": {
+              "location": "steps\\registro_usuario_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206713799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 11,
+            "name": "presiono el botón \"Register\"",
+            "match": {
+              "location": "steps\\registro_usuario_steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242730700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 12,
+            "name": "debería ver el mensaje \"Your account was created successfully\"",
+            "match": {
+              "location": "steps\\registro_usuario_steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 929911099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 239787999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "registro-de-nuevo-usuario",
+    "line": 3,
+    "keyword": "Característica",
+    "name": "Registro de nuevo usuario",
+    "tags": [],
+    "uri": "features\\registro_usuario.feature"
+  }
+]
